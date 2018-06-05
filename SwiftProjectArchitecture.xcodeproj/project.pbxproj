@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5623C54077525C0707043F46 /* Pods_SwiftProjectArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B8C33787F5E732D5F4A302 /* Pods_SwiftProjectArchitecture.framework */; };
 		FD06E2171FC80118004CC4E5 /* ThreadTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD06E2161FC80118004CC4E5 /* ThreadTool.swift */; };
 		FD09C47D1FC52F3E0033C27A /* LocalStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C46E1FC52F3E0033C27A /* LocalStorable.swift */; };
 		FD09C47E1FC52F3E0033C27A /* AlertTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C4701FC52F3E0033C27A /* AlertTool.swift */; };
@@ -96,6 +97,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44B8C33787F5E732D5F4A302 /* Pods_SwiftProjectArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A351D3B463D320B322D0BD /* Pods-SwiftProjectArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectArchitecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectArchitecture/Pods-SwiftProjectArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 		965F0CB58EA9B20E9859A3DC /* Pods-SwiftProjectArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectArchitecture/Pods-SwiftProjectArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 		FD06E2161FC80118004CC4E5 /* ThreadTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTool.swift; sourceTree = "<group>"; };
@@ -139,7 +141,7 @@
 		FD8B598C209C4C2000D0FC6A /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		FD8B598E209C4C6400D0FC6A /* HomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApi.swift; sourceTree = "<group>"; };
 		FD8B5990209C595B00D0FC6A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		FD9F9EA11F78C7B600F53BCF /* SwiftProjectArchitecture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftProjectArchitecture-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD9F9EA11F78C7B600F53BCF /* OC-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC-BridgingHeader.h"; sourceTree = "<group>"; };
 		FDB2CD5920BBA17400AE5775 /* ZGNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationsVC.swift; sourceTree = "<group>"; };
 		FDB2CD5B20BBA1F700AE5775 /* ZGNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationCell.swift; sourceTree = "<group>"; };
 		FDB2CD5D20BBA3BA00AE5775 /* ZGNotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationViewModel.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE7CB131FCE9EFE00D07F0D /* libiconv.2.4.0.tbd in Frameworks */,
+				5623C54077525C0707043F46 /* Pods_SwiftProjectArchitecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				FDD374641FC6B50B0090DC51 /* libiconv.2.4.0.tbd */,
+				44B8C33787F5E732D5F4A302 /* Pods_SwiftProjectArchitecture.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -553,7 +557,7 @@
 				FDEDC8981F6D115F00ACBF6A /* Info.plist */,
 				FDEDC8A31F6D117900ACBF6A /* LaunchScreen.storyboard */,
 				FDEDC8A51F6D117900ACBF6A /* Main.storyboard */,
-				FD9F9EA11F78C7B600F53BCF /* SwiftProjectArchitecture-Bridging-Header.h */,
+				FD9F9EA11F78C7B600F53BCF /* OC-BridgingHeader.h */,
 			);
 			name = SuportFile;
 			sourceTree = "<group>";
@@ -576,7 +580,7 @@
 			dependencies = (
 			);
 			name = SwiftProjectArchitecture;
-			productName = "SwiftProjectArchitecture";
+			productName = SwiftProjectArchitecture;
 			productReference = FDEDC8621F6D0D5D00ACBF6A /* SwiftProjectArchitecture.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -921,7 +925,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VN8VAKHNWG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/SwiftProjectArchitecture/SwiftProjectArchitecture/SwiftProjectArchitecture/SwiftProjectArchitecture-Bridging-Header.h";
+				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/Swift项目框架/SwiftProjectArchitecture/SwiftProjectArchitecture/OC-BridgingHeader.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -970,9 +974,9 @@
 					"-framework",
 					"\"YLImagePickerController\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weiqitong.Swift----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wushiqi.SwiftProjectArchitecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectArchitecture/SwiftProjectArchitecture-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectArchitecture/OC-BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -988,7 +992,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VN8VAKHNWG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/SwiftProjectArchitecture/SwiftProjectArchitecture/SwiftProjectArchitecture/SwiftProjectArchitecture-Bridging-Header.h";
+				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/Swift项目框架/SwiftProjectArchitecture/SwiftProjectArchitecture/OC-BridgingHeader.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -1037,9 +1041,9 @@
 					"-framework",
 					"\"YLImagePickerController\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weiqitong.Swift----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wushiqi.SwiftProjectArchitecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectArchitecture/SwiftProjectArchitecture-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectArchitecture/OC-BridgingHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
