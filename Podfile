@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, ‘9.0’
 use_frameworks!
 
-target 'Swift项目框架' do
+target 'SwiftProjectArchitecture' do
     
     pod 'Alamofire', '~> 4.4'
     pod 'SnapKit', '~> 4.0.0'
