@@ -925,7 +925,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VN8VAKHNWG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/Swift项目框架/SwiftProjectArchitecture/SwiftProjectArchitecture/OC-BridgingHeader.h";
+				GCC_PREFIX_HEADER = "${SRCROOT}/SwiftProjectArchitecture/OC-BridgingHeader.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -992,7 +992,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VN8VAKHNWG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/Swift项目框架/SwiftProjectArchitecture/SwiftProjectArchitecture/OC-BridgingHeader.h";
+				GCC_PREFIX_HEADER = "${SRCROOT}/SwiftProjectArchitecture/OC-BridgingHeader.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
