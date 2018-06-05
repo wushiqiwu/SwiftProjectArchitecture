@@ -96,8 +96,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F0118F77358177AED41D37F /* Pods-Swift项目框架.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.debug.xcconfig"; sourceTree = "<group>"; };
-		D80EEA097E78068D05A23B13 /* Pods-Swift项目框架.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.release.xcconfig"; sourceTree = "<group>"; };
+		B276B53B46054DDBA5D4B7C5 /* Pods-Swift项目框架.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.release.xcconfig"; sourceTree = "<group>"; };
+		B2EA81FCEA45D42B594F481D /* Pods-Swift项目框架.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.debug.xcconfig"; sourceTree = "<group>"; };
 		FD06E2161FC80118004CC4E5 /* ThreadTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTool.swift; sourceTree = "<group>"; };
 		FD09C46E1FC52F3E0033C27A /* LocalStorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorable.swift; sourceTree = "<group>"; };
 		FD09C4701FC52F3E0033C27A /* AlertTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTool.swift; sourceTree = "<group>"; };
@@ -219,11 +219,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9E12887F9A7F758B21DDDD3E /* Pods */ = {
+		84B7A447144FADE1F5035E7A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1F0118F77358177AED41D37F /* Pods-Swift项目框架.debug.xcconfig */,
-				D80EEA097E78068D05A23B13 /* Pods-Swift项目框架.release.xcconfig */,
+				B2EA81FCEA45D42B594F481D /* Pods-Swift项目框架.debug.xcconfig */,
+				B276B53B46054DDBA5D4B7C5 /* Pods-Swift项目框架.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -468,7 +468,7 @@
 				FDEDC8641F6D0D5D00ACBF6A /* Swift项目框架 */,
 				FDEDC8631F6D0D5D00ACBF6A /* Products */,
 				6EEDF771521522A5F9BCE4DD /* Frameworks */,
-				9E12887F9A7F758B21DDDD3E /* Pods */,
+				84B7A447144FADE1F5035E7A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -915,7 +915,7 @@
 		};
 		FDEDC8751F6D0D5E00ACBF6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F0118F77358177AED41D37F /* Pods-Swift项目框架.debug.xcconfig */;
+			baseConfigurationReference = B2EA81FCEA45D42B594F481D /* Pods-Swift项目框架.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -982,7 +982,7 @@
 		};
 		FDEDC8761F6D0D5E00ACBF6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D80EEA097E78068D05A23B13 /* Pods-Swift项目框架.release.xcconfig */;
+			baseConfigurationReference = B276B53B46054DDBA5D4B7C5 /* Pods-Swift项目框架.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
