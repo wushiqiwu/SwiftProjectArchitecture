@@ -6,7 +6,7 @@
 //  Copyright © 2018年 wushiqi. All rights reserved.
 //  文本计算宽高
 
-import Foundation
+import UIKit
 
 protocol TextCalculatable {
     

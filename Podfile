@@ -8,7 +8,6 @@ target 'Swift项目框架' do
     pod 'SnapKit', '~> 4.0.0'
     pod 'SwifterSwift' #扩展分类
     pod 'SwiftyJSON'
-    pod 'HandyJSON', '~> 4.1.1'
     pod 'Kingfisher'  #图片加载
 #    pod 'ESPullToRefresh' #刷新
     pod 'CryptoSwift' #加密

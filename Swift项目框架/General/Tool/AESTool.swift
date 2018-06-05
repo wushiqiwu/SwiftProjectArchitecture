@@ -21,7 +21,7 @@ struct AESTool {
         let key = [UInt8](AESKey.data(using: .utf8)!)
         
         do {
-            let aes = try AES.init(key: key, blockMode: .ECB, padding: .pkcs7)
+            let aes = try AES.init(key: key, blockMode: ECB(), padding: .pkcs7)
             encrypted = try aes.encrypt([UInt8](data))
             let encoded = Data(encrypted)
             return  encoded.base64EncodedData() //加密完后,再转Base64
@@ -43,7 +43,7 @@ struct AESTool {
         let key = [UInt8](AESKey.data(using: .utf8)!)
 
         do {
-            let aes = try AES.init(key: key, blockMode: .ECB, padding: .pkcs7)
+            let aes = try AES.init(key: key, blockMode: ECB(), padding: .pkcs7)
             decrypted = try aes.decrypt(encrypted)
             return  Data(decrypted)
         } catch {

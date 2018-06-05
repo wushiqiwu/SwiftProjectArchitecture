@@ -6,7 +6,7 @@
 //  Copyright © 2017年 wushiqi. All rights reserved.
 //  适应Java后台的AES加解密
 
-import Foundation
+import UIKit
 
 struct ServersAESTool {
     

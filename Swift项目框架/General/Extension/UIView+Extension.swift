@@ -6,7 +6,7 @@
 //  Copyright © 2017年 wushiqi. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 //MARK:- 快速点击事件
 fileprivate var CustomTapActionKey = "CustomTapAction"

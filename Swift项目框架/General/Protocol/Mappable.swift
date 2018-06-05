@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import HandyJSON
 
 ///JSON解析映射为Model
 protocol Mappable  : Decodable {

@@ -6,6 +6,8 @@
 //  Copyright © 2017年 wushiqi. All rights reserved.
 //
 
+import UIKit
+
 ///管理使用中的Tool
 class RequestManager{
     

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6E6371E492911ECF5D969E6 /* Pods_Swift____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6CDDB70D754834CAEDC44B /* Pods_Swift____.framework */; };
 		FD06E2171FC80118004CC4E5 /* ThreadTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD06E2161FC80118004CC4E5 /* ThreadTool.swift */; };
 		FD09C47D1FC52F3E0033C27A /* LocalStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C46E1FC52F3E0033C27A /* LocalStorable.swift */; };
 		FD09C47E1FC52F3E0033C27A /* AlertTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C4701FC52F3E0033C27A /* AlertTool.swift */; };
@@ -43,7 +42,6 @@
 		FD8B598D209C4C2000D0FC6A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B598C209C4C2000D0FC6A /* Api.swift */; };
 		FD8B598F209C4C6400D0FC6A /* HomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B598E209C4C6400D0FC6A /* HomeApi.swift */; };
 		FD8B5991209C595B00D0FC6A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B5990209C595B00D0FC6A /* UserModel.swift */; };
-		FDB2CD5720BBA0FB00AE5775 /* Pods_Swift项目框架.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB2CD5620BBA0FB00AE5775 /* Pods_Swift项目框架.framework */; };
 		FDB2CD5A20BBA17400AE5775 /* ZGNotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2CD5920BBA17400AE5775 /* ZGNotificationsVC.swift */; };
 		FDB2CD5C20BBA1F700AE5775 /* ZGNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2CD5B20BBA1F700AE5775 /* ZGNotificationCell.swift */; };
 		FDB2CD5E20BBA3BA00AE5775 /* ZGNotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2CD5D20BBA3BA00AE5775 /* ZGNotificationViewModel.swift */; };
@@ -98,9 +96,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B6CDDB70D754834CAEDC44B /* Pods_Swift____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Swift____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDB37D2971AA9E2D728D3AFC /* Pods-Swift项目框架.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.release.xcconfig"; sourceTree = "<group>"; };
-		ED21802B3E61E64BBDC9E423 /* Pods-Swift项目框架.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.debug.xcconfig"; sourceTree = "<group>"; };
+		2F28065B018FEDF07B8FBBED /* Pods-Swift项目框架.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.debug.xcconfig"; sourceTree = "<group>"; };
+		D06B510BBCF4CE74A455C516 /* Pods-Swift项目框架.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift项目框架.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift项目框架/Pods-Swift项目框架.release.xcconfig"; sourceTree = "<group>"; };
 		FD06E2161FC80118004CC4E5 /* ThreadTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTool.swift; sourceTree = "<group>"; };
 		FD09C46E1FC52F3E0033C27A /* LocalStorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorable.swift; sourceTree = "<group>"; };
 		FD09C4701FC52F3E0033C27A /* AlertTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTool.swift; sourceTree = "<group>"; };
@@ -143,7 +140,6 @@
 		FD8B598E209C4C6400D0FC6A /* HomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApi.swift; sourceTree = "<group>"; };
 		FD8B5990209C595B00D0FC6A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		FD9F9EA11F78C7B600F53BCF /* Swift项目框架-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift项目框架-Bridging-Header.h"; sourceTree = "<group>"; };
-		FDB2CD5620BBA0FB00AE5775 /* Pods_Swift项目框架.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_Swift项目框架.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB2CD5920BBA17400AE5775 /* ZGNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationsVC.swift; sourceTree = "<group>"; };
 		FDB2CD5B20BBA1F700AE5775 /* ZGNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationCell.swift; sourceTree = "<group>"; };
 		FDB2CD5D20BBA3BA00AE5775 /* ZGNotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationViewModel.swift; sourceTree = "<group>"; };
@@ -208,32 +204,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB2CD5720BBA0FB00AE5775 /* Pods_Swift项目框架.framework in Frameworks */,
 				FDE7CB131FCE9EFE00D07F0D /* libiconv.2.4.0.tbd in Frameworks */,
-				A6E6371E492911ECF5D969E6 /* Pods_Swift____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F4C3C7DC2AD0A94DFF0BEEB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ED21802B3E61E64BBDC9E423 /* Pods-Swift项目框架.debug.xcconfig */,
-				CDB37D2971AA9E2D728D3AFC /* Pods-Swift项目框架.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6EEDF771521522A5F9BCE4DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FDB2CD5620BBA0FB00AE5775 /* Pods_Swift项目框架.framework */,
 				FDD374641FC6B50B0090DC51 /* libiconv.2.4.0.tbd */,
-				1B6CDDB70D754834CAEDC44B /* Pods_Swift____.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E12887F9A7F758B21DDDD3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F28065B018FEDF07B8FBBED /* Pods-Swift项目框架.debug.xcconfig */,
+				D06B510BBCF4CE74A455C516 /* Pods-Swift项目框架.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FD09C4611FC52F3E0033C27A /* General */ = {
@@ -475,8 +467,8 @@
 			children = (
 				FDEDC8641F6D0D5D00ACBF6A /* Swift项目框架 */,
 				FDEDC8631F6D0D5D00ACBF6A /* Products */,
-				4F4C3C7DC2AD0A94DFF0BEEB /* Pods */,
 				6EEDF771521522A5F9BCE4DD /* Frameworks */,
+				9E12887F9A7F758B21DDDD3E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -652,7 +644,6 @@
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/EFQRCode/EFQRCode.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -676,7 +667,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFQRCode.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
@@ -925,11 +915,13 @@
 		};
 		FDEDC8751F6D0D5E00ACBF6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED21802B3E61E64BBDC9E423 /* Pods-Swift项目框架.debug.xcconfig */;
+			baseConfigurationReference = 2F28065B018FEDF07B8FBBED /* Pods-Swift项目框架.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VN8VAKHNWG;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/Swift项目框架/SwiftProjectArchitecture/Swift项目框架/Swift项目框架-Bridging-Header.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -937,6 +929,47 @@
 				INFOPLIST_FILE = "Swift项目框架/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Cache\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Differentiator\"",
+					"-framework",
+					"\"EFQRCode\"",
+					"-framework",
+					"\"FDFullscreenPopGesture\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxDataSources\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SKPhotoBrowser\"",
+					"-framework",
+					"\"SQAutoScrollView\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwifterSwift\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"YLImagePickerController\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weiqitong.Swift----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Swift项目框架/Swift项目框架-Bridging-Header.h";
@@ -949,11 +982,13 @@
 		};
 		FDEDC8761F6D0D5E00ACBF6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDB37D2971AA9E2D728D3AFC /* Pods-Swift项目框架.release.xcconfig */;
+			baseConfigurationReference = D06B510BBCF4CE74A455C516 /* Pods-Swift项目框架.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VN8VAKHNWG;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "/Users/wushiqi/Desktop/Swift项目框架/SwiftProjectArchitecture/Swift项目框架/Swift项目框架-Bridging-Header.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -961,6 +996,47 @@
 				INFOPLIST_FILE = "Swift项目框架/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Cache\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"Differentiator\"",
+					"-framework",
+					"\"EFQRCode\"",
+					"-framework",
+					"\"FDFullscreenPopGesture\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxDataSources\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SKPhotoBrowser\"",
+					"-framework",
+					"\"SQAutoScrollView\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwifterSwift\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"YLImagePickerController\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.weiqitong.Swift----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Swift项目框架/Swift项目框架-Bridging-Header.h";
