@@ -47,6 +47,10 @@ class ViewController: UIViewController {
 //        print(label.height)
 //        label.height = label.attributedTextHeight(width: label.width)
 //        print(label.height)
+        
+        
+        
+        
 //        //带缓存+映射 的 网络请求
 //        Requester().url("XXXXX").needCache(true).mapper([AddressModel].self).start { (flag, obj) in
 //
