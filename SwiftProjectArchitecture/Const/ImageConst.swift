@@ -10,7 +10,8 @@ import UIKit
 
 extension APP{
     
-    //登录页背景图片
+    
+    /// 登录页背景图片
     static var logingBackGroundImage : String{
         #if ZGLittleSnail
         return "LogingBG_ZGLittleSnail"

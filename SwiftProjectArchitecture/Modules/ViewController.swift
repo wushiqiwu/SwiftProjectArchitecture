@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
 //        Api.userLogin(phone: "18588466685", code: "9999", completion: { (model) in
 //              print("登录成功")
 //              print(model)

@@ -10,6 +10,8 @@ import Foundation
 
 extension APP {
     
-    static let cacheDirectoryName = "CustomCacheDirectory" //本地缓存目录名
+    
+    /// 本地缓存目录名
+    static let cacheDirectoryName = "CustomCacheDirectory"
 
 }

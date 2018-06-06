@@ -29,3 +29,14 @@ func printLog<T>(_ message: T,
 {
     print("\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
 }
+
+
+//颜色
+func RGB(_ r:CGFloat,_ g:CGFloat,_ b:CGFloat) -> UIColor{
+    return RGBA(r, g, b, 1.0)
+}
+
+func RGBA(_ r:CGFloat,_ g:CGFloat,_ b:CGFloat,_ a:CGFloat) -> UIColor{
+    return UIColor.init(red:r/255.0,green: g/255.0,blue: b/255.0,alpha:a)
+}
+

@@ -33,6 +33,7 @@
 		FD0CA58E1FE10E2600DF5368 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CA5831FE10E2600DF5368 /* UIView+Extension.swift */; };
 		FD0CA58F1FE10E2600DF5368 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CA5841FE10E2600DF5368 /* UIView+Frame.swift */; };
 		FD0CA5901FE10E2600DF5368 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CA5851FE10E2600DF5368 /* UIViewController+Extension.swift */; };
+		FD23725820C7C9AF006A7568 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD23725720C7C9AE006A7568 /* MBProgressHUD.bundle */; };
 		FD49BF451F7C971500895A29 /* WebInteractionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD49BF441F7C971500895A29 /* WebInteractionProtocol.swift */; };
 		FD49BF531F7C9F7400895A29 /* WebBridgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD49BF521F7C9F7400895A29 /* WebBridgeController.swift */; };
 		FD49BF541F7CA51500895A29 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = FD49BF4B1F7C9F2900895A29 /* WebViewJavascriptBridge.m */; };
@@ -43,6 +44,8 @@
 		FD8B598D209C4C2000D0FC6A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B598C209C4C2000D0FC6A /* Api.swift */; };
 		FD8B598F209C4C6400D0FC6A /* HomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B598E209C4C6400D0FC6A /* HomeApi.swift */; };
 		FD8B5991209C595B00D0FC6A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B5990209C595B00D0FC6A /* UserModel.swift */; };
+		FDAF054A20C6685D00B4F64B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF054520C6685D00B4F64B /* MBProgressHUD.m */; };
+		FDAF054B20C6685D00B4F64B /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF054820C6685D00B4F64B /* MBProgressHUD+MJ.m */; };
 		FDB2CD5A20BBA17400AE5775 /* ZGNotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2CD5920BBA17400AE5775 /* ZGNotificationsVC.swift */; };
 		FDB2CD5C20BBA1F700AE5775 /* ZGNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2CD5B20BBA1F700AE5775 /* ZGNotificationCell.swift */; };
 		FDB2CD5E20BBA3BA00AE5775 /* ZGNotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2CD5D20BBA3BA00AE5775 /* ZGNotificationViewModel.swift */; };
@@ -125,6 +128,7 @@
 		FD0CA5831FE10E2600DF5368 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		FD0CA5841FE10E2600DF5368 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		FD0CA5851FE10E2600DF5368 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		FD23725720C7C9AE006A7568 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		FD49BF441F7C971500895A29 /* WebInteractionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInteractionProtocol.swift; sourceTree = "<group>"; };
 		FD49BF471F7C9F2900895A29 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FD49BF481F7C9F2900895A29 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -142,6 +146,10 @@
 		FD8B598E209C4C6400D0FC6A /* HomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApi.swift; sourceTree = "<group>"; };
 		FD8B5990209C595B00D0FC6A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		FD9F9EA11F78C7B600F53BCF /* OC-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC-BridgingHeader.h"; sourceTree = "<group>"; };
+		FDAF054520C6685D00B4F64B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FDAF054620C6685D00B4F64B /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		FDAF054720C6685D00B4F64B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FDAF054820C6685D00B4F64B /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		FDB2CD5920BBA17400AE5775 /* ZGNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationsVC.swift; sourceTree = "<group>"; };
 		FDB2CD5B20BBA1F700AE5775 /* ZGNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationCell.swift; sourceTree = "<group>"; };
 		FDB2CD5D20BBA3BA00AE5775 /* ZGNotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGNotificationViewModel.swift; sourceTree = "<group>"; };
@@ -369,6 +377,18 @@
 			path = Api;
 			sourceTree = "<group>";
 		};
+		FDAF054420C6685D00B4F64B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF054720C6685D00B4F64B /* MBProgressHUD.h */,
+				FDAF054520C6685D00B4F64B /* MBProgressHUD.m */,
+				FDAF054620C6685D00B4F64B /* MBProgressHUD+MJ.h */,
+				FDAF054820C6685D00B4F64B /* MBProgressHUD+MJ.m */,
+				FD23725720C7C9AE006A7568 /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		FDB2CD5820BBA14200AE5775 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,6 +549,7 @@
 		FDEDC87A1F6D0E9F00ACBF6A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				FDAF054420C6685D00B4F64B /* MBProgressHUD */,
 				FDBFA65320BD5E9300F1CEBD /* CleanJSON */,
 				FDE7CAE81FCE4E8D00D07F0D /* Security */,
 				FD49BF461F7C9F2900895A29 /* WebViewJavascriptBridge */,
@@ -627,6 +648,7 @@
 			files = (
 				FDDD1B501FC420B300D8C1BF /* Info.plist in Resources */,
 				FDEDC8A71F6D117900ACBF6A /* LaunchScreen.storyboard in Resources */,
+				FD23725820C7C9AF006A7568 /* MBProgressHUD.bundle in Resources */,
 				FDEDC8A21F6D116E00ACBF6A /* Assets.xcassets in Resources */,
 				FDEDC8A81F6D117900ACBF6A /* Main.storyboard in Resources */,
 			);
@@ -649,7 +671,6 @@
 				"${BUILT_PRODUCTS_DIR}/EFQRCode/EFQRCode.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
@@ -672,7 +693,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFQRCode.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
@@ -730,6 +750,7 @@
 				FDD1D85D20C50F1A0099D517 /* BasePopupView.swift in Sources */,
 				FDDED4E120B6A104004DA07D /* SystemAuthorizationService.swift in Sources */,
 				FD0CA5871FE10E2600DF5368 /* Sequece+Extension.swift in Sources */,
+				FDAF054B20C6685D00B4F64B /* MBProgressHUD+MJ.m in Sources */,
 				FDDEE9692085A3DE00A4616C /* APPConst.swift in Sources */,
 				FD56115320A42BD500F95DC6 /* RXSwfitExerciseViewController.swift in Sources */,
 				FDDEE9752085A49100A4616C /* RequestValue.swift in Sources */,
@@ -793,6 +814,7 @@
 				FD0CA55C1FE0FE5200DF5368 /* UIImageView+UILinkCreate.swift in Sources */,
 				FD0CA5861FE10E2600DF5368 /* InputAccessory+Extension.swift in Sources */,
 				FDEDC8661F6D0D5D00ACBF6A /* AppDelegate.swift in Sources */,
+				FDAF054A20C6685D00B4F64B /* MBProgressHUD.m in Sources */,
 				FD0CA55A1FE0FE5200DF5368 /* UIButton+UILinkCreate.swift in Sources */,
 				FDDEE96A2085A3DE00A4616C /* NotificationConst.swift in Sources */,
 				FDDEE9682085A3DE00A4616C /* ThirdConst.swift in Sources */,
@@ -950,8 +972,6 @@
 					"-framework",
 					"\"Kingfisher\"",
 					"-framework",
-					"\"MBProgressHUD\"",
-					"-framework",
 					"\"MJRefresh\"",
 					"-framework",
 					"\"RxCocoa\"",
@@ -1016,8 +1036,6 @@
 					"\"FDFullscreenPopGesture\"",
 					"-framework",
 					"\"Kingfisher\"",
-					"-framework",
-					"\"MBProgressHUD\"",
 					"-framework",
 					"\"MJRefresh\"",
 					"-framework",

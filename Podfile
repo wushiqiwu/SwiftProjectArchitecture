@@ -24,7 +24,6 @@ target 'SwiftProjectArchitecture' do
     pod 'RxDataSources', '~> 3.0'
     
  #OC的库
-    pod 'MBProgressHUD', '~> 1.0.0'
     pod 'FDFullscreenPopGesture'
     pod 'MJRefresh'
     #pod 'WebViewJavascriptBridge', '~> 5.0' //源码有问题 暂时先注释

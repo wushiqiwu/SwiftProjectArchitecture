@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MBProgressHUD
 
 enum ShowStyle : Int {
     
@@ -26,77 +25,28 @@ public final class HUDTool {
 //显示消息
 extension HUDTool{
     
-    class final func showMessage(msg : String){
-        k_showMessage(msg: msg, delay: constDelay,handel: nil)
+    class final func showSuccess(_ success : String){
+        MBProgressHUD.showSuccess(success)
     }
     
-    class final func showMessage(msg : String , delay : Double) {
-        k_showMessage(msg: msg, delay: delay,handel: nil)
+    class final func showError(_ error : String){
+        MBProgressHUD.showError(error)
     }
     
-    class final func showMessage(msg : String,handel : completeHandel?){
-        k_showMessage(msg: msg, delay: constDelay,handel:handel)
-    }
-    
-    class final func showMessage(msg : String, delay : Double , handel : completeHandel?){
-        k_showMessage(msg: msg, delay: constDelay,handel:handel)
-    }
-    fileprivate class final func k_showMessage(msg : String , delay : Double,handel : completeHandel?) {
-        
-        (APP.keyWindow.viewWithTag(ShowStyle.ShowText.rawValue) as? MBProgressHUD)?.hide(animated: false)
-        
-        let lastHud = APP.keyWindow.viewWithTag(ShowStyle.ShowText.rawValue) as? MBProgressHUD
-        var newHud  : MBProgressHUD! = nil
-        if( lastHud == nil ){
-            
-            newHud = MBProgressHUD.init(view: APP.keyWindow)
-            APP.keyWindow.addSubview(newHud)
-            newHud.tag = ShowStyle.ShowText.rawValue
-            newHud.removeFromSuperViewOnHide = true
-            newHud.mode = .text
-            newHud.label.font = UIFont.size14
-            newHud.bezelView.color = UIColor.black
-            newHud.label.textColor = UIColor.white;
-            
-        }else{
-            newHud = lastHud
-            newHud.completionBlock?()
-        }
-        
-        newHud.label.text = msg
-        newHud.completionBlock = handel
-        newHud.show(animated: true)
-        newHud.hide(animated: true, afterDelay: delay)
-    }
 }
 
 //显示HUD
 extension HUDTool{
     
     class final func showHUD(){
-
-        (APP.keyWindow.viewWithTag(ShowStyle.ShowText.rawValue) as? MBProgressHUD)?.hide(animated: false)
-        
-        let lastHud = APP.keyWindow.viewWithTag(ShowStyle.ShowHUD.rawValue) as? MBProgressHUD
-        var newHud  : MBProgressHUD! = nil
-        if( lastHud == nil ){
-            
-            newHud = MBProgressHUD.init(view: APP.keyWindow)
-            APP.keyWindow.addSubview(newHud)
-            newHud.tag = ShowStyle.ShowHUD.rawValue
-            newHud.removeFromSuperViewOnHide = true
-            newHud.mode = .indeterminate
-            newHud.graceTime = 0.5
-            newHud.bezelView.color = UIColor.black
-            newHud.contentColor    = UIColor.white
-        }else{
-            newHud = lastHud
-        }
-        
-        newHud.show(animated: true)
+        MBProgressHUD.showMessage(nil, graceTime: Float(constDelay))
+    }
+    
+    class final func showHUD(_ text : String){
+        MBProgressHUD.showMessage(text,graceTime: Float(constDelay))
     }
     
     class final func  hiddenHUD(){
-       (APP.keyWindow.viewWithTag(ShowStyle.ShowHUD.rawValue) as? MBProgressHUD)?.hide(animated: true)
+        MBProgressHUD.hide()
     }
 }

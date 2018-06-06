@@ -72,7 +72,7 @@ extension Requester{
                     //需要重新登录
                     if obj.errCode == Requester.RelistErrCode{
                         //要删除的
-                        if self.showMsg { HUDTool.showMessage(msg: obj.message) }
+                        if self.showMsg { HUDTool.showError(obj.message) }
                         result?(false,obj)
                         print("需要重新登录") //要删除的,这里要改重新登录
                         return
@@ -80,7 +80,7 @@ extension Requester{
                     
                     //Code != 0
                     if obj.errCode > 0 {
-                        if self.showMsg { HUDTool.showMessage(msg: obj.message) }
+                        if self.showMsg { HUDTool.showError(obj.message) }
                         result?(false,obj)
                         return
                     }
@@ -103,7 +103,7 @@ extension Requester{
                 }else{
                     
                     obj.message  = "返回数据有误"
-                    if self.showMsg { HUDTool.showMessage(msg: obj.message) }
+                    if self.showMsg { HUDTool.showError(obj.message) }
                     result?(false,obj)
                 }
                 
@@ -123,7 +123,7 @@ extension Requester{
                 let obj = ResponseObject()
                 obj.message = "服务器开了小差,请稍后再试!"
                 
-                if self.showMsg { HUDTool.showMessage(msg: obj.message) }
+                if self.showMsg { HUDTool.showError(obj.message) }
                 result?(false,obj)
                 RequestManager.share[self] = nil
                 debugPrint("请求发生错误:  \(error)")

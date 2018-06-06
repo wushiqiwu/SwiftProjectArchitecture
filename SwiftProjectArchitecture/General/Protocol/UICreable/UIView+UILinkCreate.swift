@@ -85,3 +85,15 @@ extension LinkCreator where Base  : UIView{
         return self
     }
 }
+
+//快速添加手势
+extension LinkCreator where Base : UIView{
+    
+    public typealias CustomTapAction = (UITapGestureRecognizer) -> ()
+    
+    @discardableResult
+    public func addTapGesture(action: @escaping CustomTapAction)->LinkCreator{
+        base.addTapGesture(action: action)
+        return self
+    }
+}
